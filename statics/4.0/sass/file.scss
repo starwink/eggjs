@@ -1,0 +1,35 @@
+$bg_color:#dfd6cc;
+$bg_jpg:url('//statics.ishangzu.com/isz/3.1/mobile/v3/assets/images/h5/20171221/bg.jpg?v=2') $bg_color;
+$bg_msgbox_color:#dbd2c7;
+
+$page2l_height: 88%;
+$page2l_width: 90%;
+
+$page2r_height: 91.5%;
+$page2r_width: 95%;
+
+$iphone5_wechat_height:503px;
+$iphone5_width:320px;
+$iphone6_7_8_wechat_height:602px;
+$iphone6p_7p_8p_wechat_height:671px;
+$media_mx4_width:575px;
+$iphonex_wechat_height:747px;
+
+$iphone5_height:568px;
+$iphone6_7_8_height:667px;
+$iphone6p_7p_8p_height:736px;
+$iphonex_height:812px;
+
+body{
+    background: $bg_jpg;
+}
+.bg2{
+    background: url(//statics.ishangzu.com/isz/3.1/mobile/v3/assets/images/h5/20171221/bg2.png?v=2) 32px 32px #e7e7e7;
+    background-size: 99px 87px;
+}
+.title{
+    position: absolute;
+    height: 100%;
+    background: #fa6a65;
+    font-size:14px;
+}

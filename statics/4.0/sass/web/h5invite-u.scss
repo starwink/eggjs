@@ -1,0 +1,532 @@
+html{
+    // background-image: linear-gradient(90deg, #F7B676 0%, #F9824C 100%);
+    background-color: #9ff6fc;
+}
+body{
+    width:100%;
+    max-width: 414px;
+    min-width: 375px;
+    padding:0;
+    margin: 0 auto;
+    // background-image: linear-gradient(90deg, #F7B676 0%, #F9824C 100%);
+    background-color: #9ff6fc;
+}
+img{
+    width: 100%;
+}
+.body{
+    .huodong{
+        .button-box{
+            background-color: #ff3351;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+            a{
+                color:#fff;
+                text-decoration: none;
+            }
+        }
+        .coupon{
+            background: url(https://statics.ishangzu.com/isz/4.0/img/huodong/inviteuser18/bg-u.jpg) no-repeat;
+            background-size: cover;
+            height: 570px;
+            margin-top: -32px;
+            
+            .hidebox{
+                display: none;
+            }
+            .coupon-box{
+                margin: 0 auto;
+                padding: 30px 0 10px;
+                background-image: linear-gradient(45deg, #ff574c 0%, #ffb178 100%);
+                .img{
+                    width: 90%;
+                    margin: 10px auto;
+                }
+                .info{
+                    text-align: center;
+                    font-size: 14px;
+                    margin: 22px auto 6px;;
+                    span{
+                        color:#fff;
+                    }
+                }
+                .button{
+                    position: fixed;
+                    bottom: 2rem;
+                    left: 50%;
+                    margin-left: -40%;
+                    z-index: 99;
+                    box-shadow: 1px 1px 2px #696969;
+                }
+            }
+            .banner{
+
+            }
+            .button{
+                width: 80%;
+                background-color: #ff214f;
+                margin: 0 auto;
+                border-radius: 40px;
+                height: 46px;
+                color: #fff;
+                font-weight: 500;
+                text-align: center;
+                line-height: 46px;
+                font-size: 1.1rem;
+                &:before{ 
+                    content: ' ';
+                    width: 16px;
+                    height: 16px;
+                    background: url('https://statics.ishangzu.com/isz/4.0/img/huodong/inviteuser18/arrow.png') no-repeat;
+                    background-size: 100%;
+                    position: absolute;
+                    margin-left: 112px;
+                    margin-top: 14px;
+                    display: inline-block;
+                }
+            }
+            .button-login-show{
+                &:before{ 
+                    margin-left: 129px;
+                    margin-top: 15px;
+                }
+            }
+            .swiper-container{
+                width: 100%;
+                height: 100%;
+            }
+            .swiper-slide{
+                text-align: center;
+                font-size: 18px;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+            .user-say{
+                color: #007fcb;
+                font-size: 24px;
+                font-weight: 500;
+                text-align: center;
+                margin: 20px auto 6px;
+                &:before{
+                    content: ' ';
+                    background:url(https://statics.ishangzu.com/isz/4.0/img/huodong/inviteuser18/icon-t.png) no-repeat;
+                    background-size: 100%;
+                    width: 26px;
+                    height: 26px;
+                    position: absolute;
+                    margin-left: -34px;
+                    margin-top: 6px;
+                }
+                &:after{
+                    content: ' ';
+                    background:url(https://statics.ishangzu.com/isz/4.0/img/huodong/inviteuser18/icon-t.png) no-repeat;
+                    background-size: 100%;
+                    width: 26px;
+                    height: 26px;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 6px;
+                }
+            }
+            .user-sayimg{
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .img-msg{
+                .img{
+                    width: 80%;
+                    margin: 32px auto 8px;
+                }
+                .show-box{
+                    height: 212px;
+                }
+            }
+            .footer{
+                height:6rem;
+                width: 100%;
+                @media screen and(min-height:700px){
+                    height:8rem;
+                }
+            }
+        }
+       
+    }
+    .head-nav{
+        height: 21px;
+        width: 92%;
+        margin: 0 auto;
+        padding-top: 10px;
+        .logo{
+            float: left;
+            img{
+                width: 64px;
+                text-align: left;
+            }
+        }
+        .rule{
+            float: right;
+            img{
+                width:48px;
+                height:20px;
+                text-align: right;
+            }
+        }
+    }
+    
+    .welcome-msg{
+        background-color: #FFDEE5;
+        color: #333;
+        font-size: 12px;
+        height: 24px;
+        line-height: 25px;
+        text-align: center;
+        .icon{
+            display: inline-block;
+            img{
+                width: 12px;
+            }
+        }
+        .p{
+            display: inline-block;
+            span{
+                color:#FF214F;
+            }
+        }
+       
+    }
+}
+.msg-box{
+    .black-box{
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        position: fixed;
+        left: 0;
+        top: 0;
+        opacity: .6;
+        display: none;
+        z-index: 90;
+        // display: block;
+    }
+    .msgbox{
+        display: none;
+        z-index: 99;
+    }
+   
+    
+    .login-box{
+        display: none;
+        position: fixed;
+        top: 50%;
+        width: 322px;
+        left: 50%;
+        margin-left: -161px;
+        height: 344px;
+        margin-top: -172px;
+        border-radius: 12px;
+        .login{
+            height: 256px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            .title{
+                text-align: center;
+                font-weight: 500;
+                padding: 16px;
+            }
+            .input{
+                text-align: center;
+                margin-bottom: 8px;
+                input{
+                    border: solid 1px #DEDEDE;
+                    width: 76%;
+                    margin: 0 auto;
+                    padding: 14px 18px;
+                    font-size: 14px;
+                    border-radius: 30px;
+                    -webkit-appearance: none;
+                    outline-style: none;
+                    resize: none; 
+                }
+                a{
+                    color: #FF214F;
+                    position: absolute;
+                    right: 36px;
+                    padding-top: 12px;
+                    opacity: 1;
+                }
+            }
+            .error-msg{
+                opacity: 0;
+                width: 76%;
+                color: #FF214F;
+                margin: 0 auto 8px auto;
+                min-height: 14px;
+                font-size: 14px;
+            }
+            .button-login{
+                width: 80%;
+                background-color: #ff214f;
+                margin: 0 auto;
+                border-radius: 20px;
+                height: 46px;
+                color: #fff;
+                font-weight: 500;
+                text-align: center;
+                line-height: 46px;
+                font-size: 1.1rem;
+                box-shadow: 1px 6px 10px #dddddd;
+            }
+        }
+        .close{
+            width: 100%;
+            text-align: center;
+            margin-top: 36px;
+            img{
+                width: 2.6rem;
+            }
+        }
+    }
+    .coupon-box{
+        display: none;
+        position: absolute;
+        top:300px;
+        width: 322px;
+        left: 50%;
+        margin-left: -161px;
+        height: 460px;
+        border-radius: 12px;
+        .login{
+            height: 340px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            .title{
+                text-align: center;
+                font-weight: 500;
+                padding: 16px;
+            }
+            .input{
+                text-align: center;
+                margin-bottom: 8px;
+                input{
+                    border: solid 1px #DEDEDE;
+                    width: 76%;
+                    margin: 0 auto;
+                    padding: 14px 18px;
+                    font-size: 14px;
+                    border-radius: 20px;
+                    -webkit-appearance: none;
+                    outline-style: none;
+                    resize: none; 
+                }
+                a{
+                    color: #FF214F;
+                    position: absolute;
+                    right: 36px;
+                    padding-top: 12px;
+                    opacity: 1;
+                }
+            }
+            .error-msg{
+                opacity: 0;
+                width: 76%;
+                color: #FF214F;
+                margin: 0 auto 8px auto;
+                min-height: 14px;
+                font-size: 14px;
+            }
+            .button-login{
+                width: 80%;
+                background-color: #ff214f;
+                margin: 0 auto;
+                border-radius: 20px;
+                height: 46px;
+                color: #fff;
+                font-weight: 500;
+                text-align: center;
+                line-height: 46px;
+                font-size: 1.1rem;
+                box-shadow: 1px 6px 10px #dddddd;
+            }
+            .ps-msg{
+                font-size: 12px;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+        .close{
+            width: 100%;
+            text-align: center;
+            margin-top: 36px;
+            img{
+                width: 2.6rem;
+            }
+        }
+    }
+
+    .repeat-box,.tenant-box,.error-box,.refuse-box,.get-coupon-box{
+        // display: block;
+        display: none;
+        position: fixed;
+        top: 50%;
+        width: 322px;
+        left: 50%;
+        margin-left: -161px;
+        height: 236px;
+        margin-top: -118px;
+        border-radius: 12px;
+        .error{
+            height: 236px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            .title{
+                text-align: center;
+                padding: 16px;
+                color: #FF0030;
+                font-size: 1.8rem;
+                padding-top: 46px;
+            }
+            .body{
+                text-align: center;
+                font-size: 0.9rem;
+            }
+            .button{
+                position: absolute;
+                bottom: 28px;
+                /* left: 0; */
+                left: 50%;
+                text-align: center;
+                background-color: #ff0030;
+                width: 260px;
+                /* margin: 0 auto; */
+                height: 46px;
+                margin-left: -130px;
+                color: #fff;
+                font-weight: 500;
+                line-height: 48px;
+                font-size: 1.1rem;
+                border-radius: 48px;
+                box-shadow: 1px 1px 5px #888888;
+            }
+          
+        }
+        .close{
+            width: 100%;
+            text-align: center;
+            margin-top: 36px;
+            img{
+                width: 2.6rem;
+            }
+        }
+    }
+    .rule-box{
+        // display: block;
+        display: none;
+        position: fixed;
+        top: 6%;
+        background-color: #fff;
+        width: 84%;
+        left: 50%;
+        margin-left: -42%;
+        height: 82%;
+        border-radius: 12px;
+        background-color: white;
+        .rule{
+            padding: 30px 20px;
+            height: 82%;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            .title{
+                text-align: center;
+                font-size: 1.4rem;
+                margin: 0 0 20px 0;
+                font-weight: 500;
+                color: #FF0737;
+            }
+            .t{
+                margin: 0;
+                padding: 0;
+                color: #FF0737;
+                font-size: 14px;
+                text-align: left;
+            }
+            p{
+                min-height: 20px;
+                margin: 0;
+                padding: 0;
+                font-size: 13px;
+                text-align: left;
+                color: #333333
+            }
+        }
+        .close{
+            position: relative;
+            text-align: center;
+            height: 14%;
+            width: 100%;
+            margin-top: 42px;
+            vertical-align: middle;
+            display: inline-block;
+            @media screen and(min-height:700px){
+                top: 2rem;
+            }
+            img{
+                width: 2.6rem;
+            }
+        }
+    }
+    .share-box{
+        // display: block;
+        display: none;
+        position: fixed;
+        top: 30px;
+        background-color: #fff;
+        width: 315px;
+        height: 510px;
+        overflow: hidden;
+        left: 50%;
+        margin-left: -157px;
+        border-radius: 12px;
+        @media screen and(min-height:700px){
+            top: 10%;
+        }
+        @media screen and(max-height:550px){
+            top: 2%;
+        }
+        &:after{ //在元素内容后
+            content: ' ';
+            background: url(https://statics.ishangzu.com/isz/4.0/img/huodong/inviteuser18/share-msg.png) no-repeat;
+            background-size: 100%;
+            width: 134px;
+            height: 36px;
+            position: absolute;
+            left: 50%;
+            margin-left: -67px;
+            bottom: 0;
+        }
+        .close{
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            
+            img{
+                width: 1rem;
+            }
+        }
+    }
+   
+}

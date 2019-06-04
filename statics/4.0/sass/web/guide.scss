@@ -1,0 +1,217 @@
+$bg_color:#EFEFEF;
+$min-width:360px;
+
+html{
+    background-color: $bg_color;
+}
+body{
+    width:100%;
+    min-width: $min-width;
+    background-color: $bg_color;
+    padding:0;
+    margin: 0 auto;
+}
+.body{
+   
+}
+.guide{
+    .index{
+        width: 92%;
+        background-color: #fff;
+        margin: 30px auto;
+        padding-bottom: 40px;
+        .banner{
+            img{
+                width:100%;
+            }
+        }
+        .show-box{
+            padding: 0 28px;
+            .title{
+                h3{
+                    margin: 15px 0;
+                    line-height: 1;
+                    font-size: 1.6rem;
+                }
+            }
+            
+            .info{
+                p{
+                    font-size: 0.9rem;
+                    color: #999;
+                    font-weight: 300;
+                }
+            }
+        }
+        .button-box{
+            width: 55%;
+            margin: 50px auto 0 auto;
+            text-align: center;
+            border-radius: 22px;
+            background-color: #FF3366;
+            box-shadow: 0px 3px 16px #ff3366;
+            
+            a{
+                &:active,&:link,&:visited{
+                    color:#fff;
+                    font-weight: 300;
+                    text-decoration: none;
+                }
+            }
+            .button{
+                padding: 12px;
+            }
+
+        }
+    }
+    
+    .info{
+        background-color: #fff;
+        padding-bottom: 40px;
+        padding: 6px 20px;
+        h3{
+            font-size: 1.5rem;
+        }
+        ul{
+            list-style-type: none;
+            padding:0;
+            li{
+                padding: 12px 0;
+                border-bottom: solid 1px #efefef;
+                height: 23px;
+                .p{
+                    width: 296px;
+                    height: 23px;
+                    float: left;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                span{
+                    width: 23px;
+                    height: 23px;
+                    background: url(https://statics.ishangzu.com/isz/4.0/img/guide/arrow.png) no-repeat;
+                    background-size: 30%;
+                    display: block;
+                    float: right;
+                    background-position: center center;
+                }
+            }
+        }
+        p{
+            margin: 46px auto 24px;
+            text-align: center;
+            font-weight: 300;
+            font-size: 0.6rem;
+            color: #aaa;
+            span{
+                margin: 0 6px;
+                color: #efefef;
+
+            }
+        }
+        .show-box{
+            display:none;
+            min-height: 630px;
+            padding-bottom: 40px;
+            .t{
+                font-weight: 700;
+                margin-top: 35px;
+                margin-bottom: 10px;
+            }
+            .t2{
+                font-weight: 500;
+                font-size: 0.9rem;
+                margin-top: 35px;
+                margin-bottom: 10px;
+            }
+            .t3{
+                font-weight: 500;
+                font-size: 0.9rem;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .p{
+                font-size: 0.9rem;
+                text-indent: 1.8em;
+                margin-top: 0.6rem;
+                color: #666;
+            }
+            a{
+                &:active,&:link,&:visited{
+                    color:#000;
+                }
+            }
+            .li-p{
+                list-style-type: disc;
+                padding: 0 26px;
+               
+                li{
+                    text-indent: initial;
+                    font-size: 0.9rem;
+                    color: #666;
+                    padding: 0;
+                    border-bottom: none;
+                    height: 100%;
+                    margin: 12px 0;
+                }
+                
+            }
+            .edit{
+                font-weight: 400;
+                font-size: 15px;
+                margin: 50px 0;
+                &:before{//在元素内容前
+                    content: ' ';
+                    background:url('https://statics.ishangzu.com/isz/4.0/img/guide/edit.png') no-repeat;
+                    background-size: 70%;
+                    width: 21px;
+                    height: 21px;
+                    position: absolute;
+                    background-position: center center;
+                }
+                a{
+                    margin-left:28px; 
+                }
+            }
+            .b{
+                font-weight: 700;
+            }
+    
+        }
+        .button-box{
+            display:none;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            background-color: #fff;
+            left: 0;
+            font-size: 16px;
+            line-height: 2.8;
+            
+            @media screen and(min-width:$min-width){
+                max-width: $min-width;
+                left: 50%;
+                margin-left: -$min-width/2;
+            }
+            
+            .button{
+                border-top:solid 1px #efefef;
+                width: 33%;
+                float: left;
+                text-align: center;
+            }
+            .c{
+                border-left:solid 1px #efefef;
+                border-right:solid 1px #efefef;
+            }
+            .off{
+                color: #999;
+                font-weight: 300;
+            }
+        }
+    }
+    
+    
+}
