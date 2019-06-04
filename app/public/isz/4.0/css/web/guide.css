@@ -1,0 +1,223 @@
+html {
+  background-color: #EFEFEF;
+}
+
+body {
+  width: 100%;
+  min-width: 360px;
+  background-color: #EFEFEF;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.guide .index {
+  width: 92%;
+  background-color: #fff;
+  margin: 30px auto;
+  padding-bottom: 40px;
+}
+
+.guide .index .banner img {
+  width: 100%;
+}
+
+.guide .index .show-box {
+  padding: 0 28px;
+}
+
+.guide .index .show-box .title h3 {
+  margin: 15px 0;
+  line-height: 1;
+  font-size: 1.6rem;
+}
+
+.guide .index .show-box .info p {
+  font-size: 0.9rem;
+  color: #999;
+  font-weight: 300;
+}
+
+.guide .index .button-box {
+  width: 55%;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  border-radius: 22px;
+  background-color: #FF3366;
+  box-shadow: 0px 3px 16px #ff3366;
+}
+
+.guide .index .button-box a:active, .guide .index .button-box a:link, .guide .index .button-box a:visited {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.guide .index .button-box .button {
+  padding: 12px;
+}
+
+.guide .info {
+  background-color: #fff;
+  padding-bottom: 40px;
+  padding: 6px 20px;
+}
+
+.guide .info h3 {
+  font-size: 1.5rem;
+}
+
+.guide .info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.guide .info ul li {
+  padding: 12px 0;
+  border-bottom: solid 1px #efefef;
+  height: 23px;
+}
+
+.guide .info ul li .p {
+  width: 296px;
+  height: 23px;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.guide .info ul li span {
+  width: 23px;
+  height: 23px;
+  background: url(https://statics.ishangzu.com/isz/4.0/img/guide/arrow.png) no-repeat;
+  background-size: 30%;
+  display: block;
+  float: right;
+  background-position: center center;
+}
+
+.guide .info p {
+  margin: 46px auto 24px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.6rem;
+  color: #aaa;
+}
+
+.guide .info p span {
+  margin: 0 6px;
+  color: #efefef;
+}
+
+.guide .info .show-box {
+  display: none;
+  min-height: 630px;
+  padding-bottom: 40px;
+}
+
+.guide .info .show-box .t {
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.guide .info .show-box .t2 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.guide .info .show-box .t3 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.guide .info .show-box .p {
+  font-size: 0.9rem;
+  text-indent: 1.8em;
+  margin-top: 0.6rem;
+  color: #666;
+}
+
+.guide .info .show-box a:active, .guide .info .show-box a:link, .guide .info .show-box a:visited {
+  color: #000;
+}
+
+.guide .info .show-box .li-p {
+  list-style-type: disc;
+  padding: 0 26px;
+}
+
+.guide .info .show-box .li-p li {
+  text-indent: initial;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 0;
+  border-bottom: none;
+  height: 100%;
+  margin: 12px 0;
+}
+
+.guide .info .show-box .edit {
+  font-weight: 400;
+  font-size: 15px;
+  margin: 50px 0;
+}
+
+.guide .info .show-box .edit:before {
+  content: ' ';
+  background: url("https://statics.ishangzu.com/isz/4.0/img/guide/edit.png") no-repeat;
+  background-size: 70%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  background-position: center center;
+}
+
+.guide .info .show-box .edit a {
+  margin-left: 28px;
+}
+
+.guide .info .show-box .b {
+  font-weight: 700;
+}
+
+.guide .info .button-box {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  left: 0;
+  font-size: 16px;
+  line-height: 2.8;
+}
+
+@media screen and (min-width: 360px) {
+  .guide .info .button-box {
+    max-width: 360px;
+    left: 50%;
+    margin-left: -180px;
+  }
+}
+
+.guide .info .button-box .button {
+  border-top: solid 1px #efefef;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.guide .info .button-box .c {
+  border-left: solid 1px #efefef;
+  border-right: solid 1px #efefef;
+}
+
+.guide .info .button-box .off {
+  color: #999;
+  font-weight: 300;
+}

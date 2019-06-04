@@ -1,0 +1,136 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, button, input, textarea, th, td, header, nav, article, section, hgroup, footer, aside, a, b, i, span, em {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","å¾®è½¯é›…é»‘",STHeiti,"åŽæ–‡ç»†é»‘",sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  color: #e55454;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button {
+  outline: none;
+}
+
+a, span, i, b, em {
+  font-style: normal;
+}
+
+html {
+  background-color: #f2f2f2;
+}
+
+body {
+  width: 100%;
+  min-width: 360px;
+  background-color: #f2f2f2;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.index-back {
+  width: 100%;
+  height: 100%;
+}
+
+.index-back ul {
+  margin-top: 0.83rem;
+  width: 100%;
+  background-color: #fff;
+}
+
+.index-back ul li {
+  width: 100%;
+  height: 3.75rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 1.17rem;
+  line-height: 3.75rem;
+}
+
+.index-back ul li a {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  display: inline-block;
+}
+
+.index-back ul li a span {
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.08rem;
+  color: #2D2D34;
+}
+
+.index-back ul li a img {
+  display: inline-block;
+  height: 0.83rem;
+  width: 0.5rem;
+  float: right;
+  margin-right: 1.17rem;
+  margin-top: 1.45rem;
+}
+
+.index-back ul li:last-child a {
+  border-bottom: none;
+}
+
+.index-center-list {
+  background: #FFFFFF;
+  padding: 0.6rem 0px 1rem 1.5rem;
+  margin-top: 1.2rem;
+  word-break: break-all;
+}
+
+.index-center-list h2 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #2D2D34;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.index-center-list p {
+  padding-top: 0.4rem;
+  padding-right: 0.4rem;
+  font-size: 13px;
+  color: #2D2D34;
+  line-height: 1.8rem;
+}
+
+@media screen and (min-width: 801px) {
+  .index-back {
+    width: 620px;
+    margin-left: 30%;
+  }
+  html, body {
+    font-size: 10px !important;
+  }
+}

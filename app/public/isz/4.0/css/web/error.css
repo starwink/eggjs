@@ -1,0 +1,99 @@
+@charset "UTF-8";
+html {
+  background-color: #ffffff;
+}
+
+body {
+  width: 100%;
+  min-width: 360px;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0 auto;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, button, input, textarea, th, td, header, nav, article, section, hgroup, footer, aside, a, b, i, span, em {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","å¾®è½¯é›…é»‘",STHeiti,"åŽæ–‡ç»†é»‘",sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  color: #e55454;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button {
+  outline: none;
+}
+
+a, span, i, b, em {
+  font-style: normal;
+}
+
+.container-error {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-error .lose-boot {
+  margin-top: 3.2rem;
+  width: 100%;
+  height: 25rem;
+  background: url("https://statics.ishangzu.com/isz/4.0/img/common/404.png") no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+.container-error .lose-boot h2 {
+  font-size: 36px;
+  color: #FF305A;
+  font-weight: bold;
+  margin-top: 69px;
+}
+
+.container-error .lose-boot p {
+  font-size: 12px;
+  color: #8B8B8B;
+  font-weight: 700;
+}
+
+.container-error .lose-boot p span {
+  font-weight: 700;
+}
+
+.container-error .lose-boot a {
+  display: inline-block;
+  background: #FF305A;
+  height: 36px;
+  width: 40%;
+  margin-top: 90px;
+  text-align: center;
+  color: #FFF;
+  line-height: 36px;
+}
+
+.container-error .lose-boot a:nth-of-type(2) {
+  margin-left: 40px;
+}

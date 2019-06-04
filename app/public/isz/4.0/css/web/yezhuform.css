@@ -1,0 +1,364 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, button, input, textarea, th, td, header, nav, article, section, hgroup, footer, aside, a, b, i, span, em {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","WenQuanYi Micro Hei",STHeiti,"Hiragino Sans GB",sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  color: #e55454;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button {
+  outline: none;
+}
+
+a, span, i, b, em {
+  font-style: normal;
+}
+
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background-color: #f2f2f2;
+}
+
+body {
+  width: 100%;
+  min-width: 360px;
+  background-color: #f2f2f2;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.index-back {
+  width: 100%;
+  height: 100%;
+}
+
+.index-back ul {
+  margin-top: 13px;
+  background: #fff;
+}
+
+.index-back ul li {
+  width: 100%;
+  height: 58px;
+  line-height: 58px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 18px;
+  position: relative;
+}
+
+.index-back ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.index-back ul li a span:first-child {
+  display: inline-block;
+  color: #2F2F36;
+  width: 18%;
+}
+
+.index-back ul li a input {
+  height: 80%;
+  width: 230px;
+  outline: none;
+  border: none;
+}
+
+.index-back ul li:last-child a {
+  border-bottom: none;
+}
+
+.index-back ul li #getSer {
+  display: inline-block;
+  float: right;
+  margin: 13px 18px 0 0;
+  padding: 5px 4px;
+  border-radius: 3px;
+  border: 1px solid #E5E5E5;
+  line-height: normal;
+}
+
+.index-back ul:first-child a input {
+  height: 80%;
+  outline: none;
+  border: none;
+}
+
+.index-back .ren-phone li:last-child a input {
+  width: 102px;
+}
+
+.index-back .sub-button {
+  display: block;
+  width: 374px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  margin: 38px auto;
+  color: #F1F1F1;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #ff3366;
+}
+
+.index-back .progr-img {
+  width: 100%;
+  padding: 13px 18px 18px 18px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.index-back .progr-img img {
+  width: 375px;
+  height: 106px;
+}
+
+.index-sel-city select {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  position: relative;
+  display: inline-block;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  z-index: 2;
+  color: #000;
+}
+
+.index-sel-city {
+  width: 78%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.index-sel-city:after {
+  width: 10px;
+  height: 12px;
+  float: right;
+  margin: 22px 0 0 0;
+  background-image: url("https://statics.ishangzu.com/isz/4.0/img/yezhu/ionRight.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#ul-input-back {
+  display: none;
+  position: absolute;
+  top: 58px;
+  left: 66px;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  background-color: #fff;
+  z-index: 2;
+  margin: 0;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+#ul-input-back li {
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  width: 256px;
+  height: 45px;
+  line-height: 45px;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.succ-back {
+  margin: 30% auto;
+  text-align: center;
+}
+
+.succ-back img {
+  display: black;
+  height: 80px;
+  width: 80px;
+}
+
+.succ-back p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2F2F36;
+  margin-top: 19px;
+}
+
+.succ-back p:nth-of-type(2) {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2F2F36;
+  margin-top: 6px;
+}
+
+.succ-back p:nth-of-type(3) {
+  font-weight: 500;
+  font-size: 14px;
+  color: #999A9E;
+  margin-top: 3px;
+}
+
+.succ-back p:nth-of-type(4) {
+  font-weight: 500;
+  font-size: 14px;
+  color: #999A9E;
+  margin-top: 6px;
+}
+
+.succ-back p:nth-of-type(4) a {
+  font-size: 14px;
+  color: #F33966;
+}
+
+.index-input-city {
+  width: 100%;
+  height: 100%;
+  background: #F2F2F2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  display: none;
+}
+
+.index-input-city .input-city-bor {
+  height: 45px;
+  width: 374px;
+  line-height: 41px;
+  margin: 22px 0 18px 18px;
+  background: #fff;
+  position: relative;
+}
+
+.index-input-city .input-city-bor img {
+  height: 32px;
+  width: 32px;
+  margin-top: 4px;
+}
+
+.index-input-city .input-city-bor input {
+  height: 100%;
+  width: 320px;
+  border: 0;
+  outline: none;
+  position: absolute;
+  left: 32px;
+  top: 0px;
+}
+
+.index-input-city h3 {
+  font-size: 12px;
+  color: #8C8D8E;
+  margin-bottom: 18px;
+  margin-left: 18px;
+}
+
+.index-input-city .city-ul-list {
+  background: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 18px;
+  width: 100%;
+}
+
+.index-input-city .city-ul-list li {
+  background: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-left: 0;
+  width: 100%;
+  height: 51px;
+  line-height: 51px;
+  border-bottom: 1px solid #d5d5d5;
+  font-size: 13px;
+  color: #2F2F36;
+}
+
+.index-input-city .city-ul-list li:last-child {
+  border-bottom: 0;
+}
+
+.index-input-city .input-city-lost {
+  margin-top: 106px;
+  text-align: center;
+}
+
+.index-input-city .input-city-lost img {
+  height: 151px;
+  width: 151px;
+  display: block;
+  margin: auto;
+}
+
+.index-input-city .input-city-lost h4 {
+  display: block;
+  font-size: 13px;
+  color: #A1A1A4;
+  margin: 9px auto 0 auto;
+}
+
+@media screen and (min-width: 801px) {
+  .index-back {
+    width: 398px;
+    margin-left: 30%;
+  }
+  .index-sel-city {
+    width: 80%;
+  }
+  [data-dpr="1"] html,
+  [data-dpr="1"] body {
+    font-size: 5px !important;
+  }
+  [data-dpr="2"] html,
+  [data-dpr="2"] body {
+    font-size: 10px !important;
+  }
+  [data-dpr="3"] html,
+  [data-dpr="3"] body {
+    font-size: 15px !important;
+  }
+}
