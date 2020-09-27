@@ -7,6 +7,7 @@ module.exports = app => {
   router.get('/', controller.homeController.index);
 
   require('./router/demoRouter')(app);
+  require('./router/jsonRouter')(app);
   
   require('./router/apiRouter')(app);
 
